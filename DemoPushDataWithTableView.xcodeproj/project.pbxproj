@@ -12,6 +12,7 @@
 		FBF240711C87CCFD00EC333B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF2406F1C87CCFD00EC333B /* Main.storyboard */; };
 		FBF240731C87CCFD00EC333B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF240721C87CCFD00EC333B /* Assets.xcassets */; };
 		FBF240761C87CCFD00EC333B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF240741C87CCFD00EC333B /* LaunchScreen.storyboard */; };
+		FBF240801C87CD4900EC333B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF2407F1C87CD4900EC333B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FBF240721C87CCFD00EC333B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF240751C87CCFD00EC333B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF240771C87CCFD00EC333B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF2407F1C87CD4900EC333B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FBF240721C87CCFD00EC333B /* Assets.xcassets */,
 				FBF240741C87CCFD00EC333B /* LaunchScreen.storyboard */,
 				FBF240771C87CCFD00EC333B /* Info.plist */,
+				FBF2407F1C87CD4900EC333B /* DetailViewController.swift */,
 			);
 			path = DemoPushDataWithTableView;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF240801C87CD4900EC333B /* DetailViewController.swift in Sources */,
 				FBF2406E1C87CCFD00EC333B /* ViewController.swift in Sources */,
 				FBF2406C1C87CCFD00EC333B /* AppDelegate.swift in Sources */,
 			);
